@@ -4,10 +4,14 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
 background: #ffb3ff;
+position: sticky;
+left: 0;
+bottom: 0;
+width: 100%;
 height: 85px;
 display: flex;
 justify-content: space-between;
-padding: 0.2rem calc((100vw - 1000px) / 2);
+/*padding: 0.2rem calc((100vw - 1000px) / 2);*/
 z-index: 12;
 `;
 
